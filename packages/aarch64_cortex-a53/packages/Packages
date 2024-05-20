@@ -1,0 +1,304 @@
+Package: UDPspeeder
+Version: 20230206.0-r2
+Depends: libc, libstdcpp6, librt, libatomic1
+License: MIT
+Section: net
+URL: https://github.com/wangyu-/UDPspeeder
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: UDPspeeder_20230206.0-r2_aarch64_cortex-a53.ipk
+Size: 74922
+SHA256sum: 47658471d9b5452b312d8e95bc8a220e1269cdd67b2afd9ed9a43e2e85d5a331
+Description:  A Tunnel which Improves your Network Quality on a High-latency Lossy Link by using Forward Error Correction,for All Traffics(TCP/UDP/ICMP)
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20231128
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
+Size: 10291
+SHA256sum: 2f798cfd2dc709c00545ba311a22afeaedaada5686637fb56b55628128f20f8c
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: ddns-scripts-services
+Version: 2.8.2-r43
+Depends: libc
+Provides: ddns-scripts_service
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 81920
+Filename: ddns-scripts-services_2.8.2-r43_all.ipk
+Size: 4567
+SHA256sum: b8dd346dae00bb490ae10abf574bb8547bd08ead89cb84a8b44bfe96a471690e
+Description:  Dynamic DNS Client definitions for supported services
+
+Package: ddns-scripts
+Version: 2.8.2-r43
+Depends: libc, ddns-scripts-services
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 102400
+Filename: ddns-scripts_2.8.2-r43_all.ipk
+Size: 24899
+SHA256sum: d01a6a260937f7350533c38ff0746d48f786df1bff482bb0e6e76291a99e3b19
+Description:  Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-43
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: https-dns-proxy
+Version: 2023.11.19-rr1
+Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
+Conflicts: https_dns_proxy
+License: MIT
+Section: net
+URL: https://docs.openwrt.melmac.net/https-dns-proxy/
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: https-dns-proxy_2023.11.19-rr1_aarch64_cortex-a53.ipk
+Size: 21680
+SHA256sum: efd30db8301eb58eb6e45460748c9b81f1317aef2ee9bbcf0ba93b38f8a7093a
+Description:  Light-weight DNS-over-HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
+ It receives regular (UDP) DNS requests and resolves them via DoH resolver.
+ Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
+
+Package: libcap-ng
+Version: 0.8.4-r1
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+URL: https://people.redhat.com/sgrubb/libcap-ng/index.html
+CPE-ID: cpe:/a:libcap-ng_project:libcap-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libcap-ng_0.8.4-r1_aarch64_cortex-a53.ipk
+Size: 9317
+SHA256sum: b2c1e884ffbcde3e082546ef20afd6bc35db4c3328b6338109b1115d1489a0e0
+Description:  POSIX capabilities library library
+
+Package: libcares
+Version: 1.28.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://c-ares.org/
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libcares_1.28.1-r1_aarch64_cortex-a53.ipk
+Size: 77897
+SHA256sum: 4da7dee338c06e71d013f7a6719178c9d8475cbd91a4b8af89d34ebdb632e40d
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 8.7.1-r2
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+URL: http://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: libcurl4_8.7.1-r2_aarch64_cortex-a53.ipk
+Size: 209652
+SHA256sum: 7c5ea283f5b47f2a268c0c5cbebcc4143e8dd1d574bc4c1398acc5917d4178cf
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.33-r2
+Depends: libc
+License: BSD-2-Clause or GPL-2.0-or-later
+Section: libs
+URL: http://software.schmorp.de/pkg/libev.html
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libev_4.33-r2_aarch64_cortex-a53.ipk
+Size: 24515
+SHA256sum: 3afda269cef82cb8bd16ee10de96040c9ca0b3a6ec02c0f01de38feb4268fe41
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libevdev_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 32901
+SHA256sum: d564cb9626d53f44c6a1eed91985f59b0ffb11d4cabf60bc44863bbf18f55004
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: liblz4-1
+Version: 1.9.4-r1
+Depends: libc
+Provides: liblz4
+License: BSD-2-Clause
+Section: libs
+URL: https://www.lz4.org/
+ABIVersion: -1
+CPE-ID: cpe:/a:lz4_project:lz4
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblz4-1_1.9.4-r1_aarch64_cortex-a53.ipk
+Size: 54129
+SHA256sum: d789730ff010fbf831196cf2a7264bb893baa0b38fb7622b9a2d51a51fcdc304
+Description:  LZ4 is a compression codec that features a very fast encoder and an
+ even faster decoder. This package provides the liblz4 shared library.
+
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a53.ipk
+Size: 39144
+SHA256sum: 92fe4a94bac5cdb5bcbaeedaa18d7a781295f82c3433fa5797c5c137b70659c1
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnghttp2-14
+Version: 1.61.0-r1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libnghttp2-14_1.61.0-r1_aarch64_cortex-a53.ipk
+Size: 73555
+SHA256sum: f39fa44e5c380b440c68cc98accf5b010369f5bdca1379d2b293a1129c8fca00
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libparted
+Version: 3.6-r1
+Depends: libc, libblkid1, libuuid1
+License: GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:parted_project:parted
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: libparted_3.6-r1_aarch64_cortex-a53.ipk
+Size: 192364
+SHA256sum: 6a06e946bb70c503db56e038a607fe16c1079813fce5f23ad65b559132978f78
+Description:  GNU Parted shared library
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+URL: https://github.com/illiliti/libudev-zero
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a53.ipk
+Size: 11230
+SHA256sum: eb10cc1c7e151cc2cc03f12b952f4fba1951e4193d1c6311abf0833a4fd2e94e
+Description:  Drop-in replacement for libudev
+
+Package: openvpn-openssl
+Version: 2.6.10-r1
+Depends: libc, kmod-tun, libcap-ng, liblzo2, liblz4-1, libopenssl3
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+URL: http://openvpn.net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a53
+Installed-Size: 645120
+Filename: openvpn-openssl_2.6.10-r1_aarch64_cortex-a53.ipk
+Size: 251456
+SHA256sum: 30ae69303906c655e7d8c64b49965c241b63eedc70e13f5e27d975870b0834dd
+Description:  Open source VPN solution using OpenSSL
+
+Package: parted
+Version: 3.6-r1
+Depends: libc, libparted, libreadline8, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:parted_project:parted
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: parted_3.6-r1_aarch64_cortex-a53.ipk
+Size: 30968
+SHA256sum: 1440776be9e5f78080f5d2fd61ffe13ec5dc9429f899f9239f83fccf959ade0d
+Description:  GNU Parted manipulates partition tables. This is useful for
+ creating space for new operating systems, reorganizing
+ disk usage, copying data on hard disks and disk imaging.
+
+Package: strongswan
+Version: 5.9.14-r2
+Depends: libc, libpthread, ip, kmod-crypto-aead, kmod-crypto-authenc, kmod-crypto-cbc, kmod-lib-zlib-inflate, kmod-lib-zlib-deflate, kmod-crypto-des, kmod-crypto-echainiv, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-sha1, kmod-ipsec, kmod-ipsec4, kmod-ipsec6
+License: GPL-2.0-or-later
+Section: net
+URL: http://www.strongswan.org/
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 552960
+Filename: strongswan_5.9.14-r2_aarch64_cortex-a53.ipk
+Size: 181792
+SHA256sum: 3e5f4b441cdb06699a6bf3895df07ac186fe829ef7e2651f4054c5fbdcd54fa5
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: usbids
+Version: 0.381-r1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: usbids_0.381-r1_aarch64_cortex-a53.ipk
+Size: 255657
+SHA256sum: ad730f9ad83f7d688aeccbc6772713ba2bd52f312cc3dabbbf09aaee9be8f6d6
+Description:  USB ID list
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+License: GPL-2.0-only
+Section: utils
+URL: http://www.linux-usb.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: usbutils_017-r1_aarch64_cortex-a53.ipk
+Size: 56864
+SHA256sum: 8095714c7e4997bf00dfcea47a865d0a13dad16d6cbff1a7d29c3b84d9c1ab3a
+Description:  USB devices listing utilities
+
